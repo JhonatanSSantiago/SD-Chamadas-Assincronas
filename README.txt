@@ -1,4 +1,4 @@
-https://github.com/JhonatanSSantiago/SDChamadasAssincronas.git
+
 
 Uma das formas de minimizar os problemas de escalabilidade e evitar o bloqueio de aplicações cliente e servidoras é fazer requisições assíncronas, que não bloqueiam a execução da aplicação enquanto uma resposta não for obtida.
 
@@ -12,6 +12,10 @@ No código apresentado, inclua uma nova div acima de <div id="dados"> e no final
 
 No repositório no GitHub, adicione um arquivo README.md e relate:
 
-qual problema percebeu ao realizar tais alterações;
-explique porque o problema ocorreu e o qual a relação com chamadas assíncronas;
-altere o código para resolver o problema
+1 - qual problema percebeu ao realizar tais alterações:
+Mesmo se der erro ao obter os dados do servidor, ele ainda ira mostar a mensagem que teve dados obitdos com sucesso
+
+2- explique porque o problema ocorreu e o qual a relação com chamadas assíncronas:
+Pq ao como se trata de uma funcao assicrona, ela nao trava a o codigo esperando o resultado do servidor.
+
+3 - altere o código para resolver o problema
